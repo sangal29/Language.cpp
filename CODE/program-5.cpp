@@ -1,3 +1,6 @@
+//Program-5 : This program is to find the sum of one to n number using the function 
+
+
 #include<iostream>
 using namespace std;
 
@@ -25,3 +28,4 @@ int main()
     return 0;
 
 }
+
