@@ -1,0 +1,27 @@
+ Note 1 -
+
+
+ when we try to write a code to convert decimal to binary number rember one thing that 
+ always we multiply and divide by 2 and in product multiply by 10 
+
+
+point to rember
+
+ int rem = number % 10;
+         ans += rem* product;
+        number /= 10;
+        product  *= 2;
+
+
+Note 2 
+
+when we try to convert binary to decimal we simply remeber one thing that is  
+divde by 10 to seprate the value and multiply by 2 in product 
+
+point to rember
+
+int rem = num % 10;
+      sum += ( rem * product);
+      num /= 10;
+      product *=2;
+
