@@ -1,0 +1,48 @@
+Functions in C++
+
+Definition: A function in C++ is a block of code designed to perform a specific task. It can be reused multiple times, making your code more organized and modular.
+
+Syntax of a Function
+
+cpp
+Copy code
+ReturnType FunctionName(Parameters) {
+    // Code to be executed
+    return value; // Optional (only needed if the return type is not void)
+}
+Explanation:
+	1. Return Type: Specifies the type of value the function returns (e.g., int, void, float).
+	2. Function Name: The name of the function used to call it.
+	3. Parameters (Optional): Inputs to the function, enclosed in parentheses. Functions can have zero or more parameters.
+
+Example Program
+Description: This program demonstrates the basic syntax of a function and how to call it.
+
+cpp
+Copy code
+#include <iostream>
+using namespace std;
+// Function Definition
+void hello() {
+    cout << "HEloo Rishabh Sangal"; // Output message
+}
+// Main Function
+int main() {
+    hello(); // Function Call
+    return 0;
+}
+Output:
+
+sql
+Copy code
+------ HEloo Rishabh Sangal -------
+
+Additional Information:
+	1. Function Call: To execute a function, you call it by its name followed by parentheses.
+	2. Types of Functions: Functions can be categorized based on their return type:
+		○ Void Functions: Do not return a value.
+		○ Non-Void Functions: Return a specific value (e.g., int, float).
+	3. Why Use Functions?
+		○ Code Reusability: Write once, use multiple times.
+		○ Modular Design: Break large code into smaller, manageable chunks.
+		○ Improved Readability: Functions make code easier to read and maintain.
