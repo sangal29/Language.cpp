@@ -1,4 +1,4 @@
-Program-1 : Program : 1  This program tell us how we find to decimal to  binary 
+Program-1 : This program tell us how we find to decimal to  binary 
 
 Program-2 : To write a program ehich convert the binary to decimal 
 
