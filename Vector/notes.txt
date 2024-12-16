@@ -1,0 +1,72 @@
+Vector Definition:
+A vector is a dynamic array that allows you to store a sequence of elements of the same type. Unlike regular arrays, vectors can automatically resize as needed, which means they handle dynamic memory allocation. Vectors are part of the C++ Standard Library, and to use them, you need to include the vector header file.
+
+Syntax:
+cpp
+Copy code
+#include <vector>
+To declare a vector:
+
+cpp
+Copy code
+vector <data_type> vector_name;
+Example:
+
+cpp
+Copy code
+vector<int> vec; // A vector of integers
+Vector Functions and Operations:
+vector_name.size()
+This function returns the number of elements currently stored in the vector.
+
+cpp
+Copy code
+cout << vec.size();  // Prints the size of the vector
+vector_name.push_back(value)
+This function adds an element value at the end of the vector.
+
+cpp
+Copy code
+vec.push_back(10);  // Adds 10 at the end of the vector
+vector_name.pop_back()
+This function removes the last element from the vector. It does not return the removed element.
+
+cpp
+Copy code
+vec.pop_back();  // Removes the last element of the vector
+vector_name.front()
+This function returns the first element of the vector.
+
+cpp
+Copy code
+cout << vec.front();  // Prints the first element of the vector
+vector_name.back()
+This function returns the last element of the vector.
+
+cpp
+Copy code
+cout << vec.back();  // Prints the last element of the vector
+vector_name.at(index)
+This function returns the element at the specified index (with bounds checking). Unlike the subscript operator [], at() throws an exception if the index is out of range.
+
+cpp
+Copy code
+cout << vec.at(2);  // Prints the element at index 2 (third element)
+vector_name.clear()
+This function removes all elements from the vector, effectively making it empty.
+
+cpp
+Copy code
+vec.clear();  // Clears the vector
+vector_name.empty()
+This function returns true if the vector is empty and false if it contains elements.
+
+cpp
+Copy code
+if (vec.empty()) {
+    cout << "Vector is empty!";
+}
+Advantages of Vectors:
+Dynamic Size: Vectors automatically resize as more elements are added or removed.
+Efficient Memory Usage: Vectors manage memory efficiently, and there’s no need to worry about manual memory allocation or deallocation.
+Versatile: Vectors allow random access to elements, just like arrays, and provide flexibility with dynamic operations such as push_back, pop_back, etc.

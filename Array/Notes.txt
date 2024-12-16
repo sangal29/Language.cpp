@@ -1,0 +1,61 @@
+Array Definition
+An array is a data structure that stores multiple values of the same data type in contiguous memory locations. It allows easy access and manipulation of elements using an index.
+
+Syntax of an Array
+cpp
+Copy code
+datatype array_name[size] = {data_values};
+datatype: The type of data stored in the array (e.g., int, float, char, etc.).
+array_name: The name of the array.
+size: The number of elements the array can hold (fixed size).
+data_values: The initial values assigned to the array elements (optional).
+Example
+cpp
+Copy code
+int student_marks[5] = {1, 2, 3, 4, 5};
+This creates an integer array student_marks of size 5 and initializes it with the values 1, 2, 3, 4, 5.
+Indexing starts at 0. So:
+student_marks[0] = 1 (first element)
+student_marks[4] = 5 (last element)
+Important Points About Arrays
+Indexing:
+
+Array indexing always starts from 0.
+For an array of size n, the first element is at index 0, and the last element is at index n-1.
+Size of an Array:
+
+The size of an array (number of elements) can be calculated using:
+cpp
+Copy code
+sizeof(array) / sizeof(array[0])
+sizeof(array) gives the total size of the array in bytes.
+sizeof(array[0]) gives the size of one element in the array.
+Accessing Elements:
+
+You can access array elements using their index. For example:
+cpp
+Copy code
+int array[] = {10, 20, 30, 40};
+cout << array[0]; // Outputs: 10
+cout << array[3]; // Outputs: 40
+Looping Through an Array
+To process all the elements in an array, you typically use a loop. For example:
+
+cpp
+Copy code
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int array[] = {1, 2, 3, 4, 5}; // Declare and initialize the array
+    int size = sizeof(array) / sizeof(array[0]); // Calculate the number of elements
+
+    for (int i = 0; i < size; i++) // Loop through the array
+    {
+        cout << array[i] << " "; // Print each element
+    }
+
+    return 0;
+
+}

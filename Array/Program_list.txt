@@ -1,0 +1,28 @@
+Program-1 This program is a intoductry of array syntax and other
+
+Program-2 This Program is about to take input in array and output the result.
+
+Program-3 This Program is to find the largest and the smalllest of the array.
+
+Program-4 This program is give the index of the smallest and the largets number
+
+program-5 : This program is to find the index of the target value in the index
+
+Program-6 :  This program is a reverse of the array using swape function
+
+Program-7: This program is the sum and the product of the array 
+
+Note : code have remebering point 
+
+// Note : when we want return two value at a same time in the function we simply 
+// use pair function in which we use pair< datatype, data type>  and also include<utility>
+//  and get pair<> function name   function.first 
+// for three use tuple and also include<tuple>
+//  to return value use get<1>
+
+Program-8 : This program is about to reverse the array and its sum and product 
+
+remain 
+
+Program-9 : This program  is about to unique value of the array.
+Program-10 : This program is about the insertion of the two array.
