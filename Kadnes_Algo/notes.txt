@@ -1,0 +1,6 @@
+kadens's algorithem is known as maximum sub array 
+
+to find the sub array = n*(n+1)/2
+it is a contigous part of the array 
+
+

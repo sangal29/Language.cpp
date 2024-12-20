@@ -1,0 +1,5 @@
+Program-1 :This is the Brute force approch of the pair sum
+
+Program - 2 : This is a second brute force approch in which we use vector.push opration 
+
+Program-3 :This is the optimize aproch of the pair sum problem 
