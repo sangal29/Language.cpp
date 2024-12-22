@@ -13,10 +13,12 @@ vector<int> productOfNumb(vector<int> nums, int size)
         {
             if( i != j)
             product *= nums[j];
-           
+         
         }
         ans[i] = product;
+    
     }
+   
     return ans;
 }
 int main()
