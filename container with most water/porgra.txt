@@ -1,0 +1,5 @@
+progarm - 1 is the brute force approch of the code in which we we use two for loop to get the 
+final out put and use max and min to get the value 
+
+program 2 is the optimal approch of the code to get the value in easy way so we use 
+two pointer approch 
