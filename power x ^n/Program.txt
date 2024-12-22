@@ -1,0 +1,12 @@
+but sell problem is basiclay  power exponansila problem based problem 
+
+Program -1:
+
+
+Tatto : a decinamal have log base 2 number + 1  is avrable in its binary 
+ mens that  if 8 is a decimal number than it's binary have 1000 have 4 digit 
+
+ evefy time rember to focuse which type is given in the code because it impact on the ans 
+ so observed effectively.
+ 
+  qution link  : https://leetcode.com/problems/powx-n/description/
