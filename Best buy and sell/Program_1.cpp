@@ -26,7 +26,8 @@ int maxprofit( vector<int>p , int size)
 }
 int main()
 {
-    vector<int>price = { 7,1,5,3,6,4};
+    // vector<int>price = { 7,1,5,3,6,4};
+    vector<int>price = { 1,2};
     int size = price.size();
 
     int result = maxprofit(price , size);
