@@ -1,0 +1,1 @@
+Binary seaching algo is apply only on shorted array
