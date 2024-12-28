@@ -1,0 +1,1 @@
+cout << obj_1.salary;
