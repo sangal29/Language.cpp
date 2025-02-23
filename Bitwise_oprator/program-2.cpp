@@ -1,5 +1,8 @@
 // Program-2 : To write a program ehich convert the binary to decimal 
 
+
+
+
 #include<iostream>
 using namespace std;
 int main()
