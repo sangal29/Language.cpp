@@ -1,4 +1,3 @@
-
 // Program-2 This Program is about to take input in array and output the result
 
 #include<iostream>
