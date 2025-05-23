@@ -1,5 +1,4 @@
 // Program-1 This program is a intoductry of array syntax and other
-
 #include <iostream>
 using namespace std;
 int main()
