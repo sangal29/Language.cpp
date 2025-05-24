@@ -1,4 +1,3 @@
-
 //Program-1 : This program is about to vector syntax and for each loop 
 
 #include<iostream>
