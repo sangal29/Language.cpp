@@ -1,5 +1,4 @@
 // Program - 1 : This program is search a target value  in the given array using binary search 
-
 #include<iostream>
 #include<vector>
 using namespace std;
