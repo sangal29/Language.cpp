@@ -2,7 +2,8 @@
 //  if the frequecy is more than the  N/2 than that is the elemnt
 
 #include <iostream>
-#include <vector>
+#include <vector>   
+
 using namespace std;
 
 // Function  isilization
