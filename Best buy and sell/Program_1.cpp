@@ -1,6 +1,5 @@
 
 
-
 // # pragma-1 This is the progra for buy and sell  
 #include<iostream>
 #include<vector>
